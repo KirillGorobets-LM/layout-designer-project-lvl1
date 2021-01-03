@@ -1,18 +1,18 @@
 @font-face {
   font-weight: normal;
   font-family: 'Open Suns';
-  src: url(../../fonts/Open\ Suns/OpenSans-Regular.ttf);
+  src: url(../fonts/Open\ Suns/OpenSans-Regular.ttf);
 }
 
 @font-face {
   font-weight: bold;
   font-family: 'Open Suns';
-  src: url(../../fonts/Open\ Suns/OpenSans-Bold.ttf);
+  src: url(../fonts/Open\ Suns/OpenSans-Bold.ttf);
 }
 
 @font-face {
   font-family: 'Neucha';
-  src: url(../../fonts/Neucha/Neucha-Regular.ttf);
+  src: url(../fonts/Neucha/Neucha-Regular.ttf);
 }
 
 * {
@@ -25,7 +25,7 @@
 }
 
 .h {
-  line-height: 1.2em;
+  line-height: 120%;
   font-family: 'Neucha', sans-serif;
   font-weight: normal;
 }
@@ -67,7 +67,7 @@ header {
   height: 100%;
   top: 0;
 
-  background: url(../../images/background.png);
+  background: url(../images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
@@ -91,8 +91,8 @@ header {
   column-gap: 30px;
 }
 
-.mgn-btm-185 {
-  margin-top: 185px;
+.mgn-btm-196 {
+  margin-top: 196px;
 }
 
 .btn-colors {
@@ -103,11 +103,39 @@ header {
 .header-btn {
   padding: 12px 24px;
 
-  position: relative;
-  top: 40px;
-  left: 570px;
+  margin-top: 40px;
+  margin-left: 570px;
 
   font-weight: bold;
   border: none;
   cursor: pointer;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.mgn-30 {
+  margin: 30px 0;
+}
+
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+
+  position: absolute;
+  top: 329px;
+  left: 91px;
+  z-index: 2;
+}
+
+.background-pd {
+  background-color: #42413c;
+}
+
+.height-614 {
+  height: 614px;
+}
+
+.z-1 {
+  z-index: 1;
 }
