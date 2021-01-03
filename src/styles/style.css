@@ -100,8 +100,7 @@ header {
 }
 
 .header-btn {
-  width: 148px;
-  height: 49px;
+  padding: 12px 24px;
 
   position: relative;
   top: 40px;
