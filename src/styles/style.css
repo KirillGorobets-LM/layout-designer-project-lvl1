@@ -43,9 +43,11 @@ h3 {
 }
 
 header {
-  width: 1440px;
-
   background-color: #f5f4f0;
+}
+
+.main-width {
+  width: 1440px;
 }
 
 .wrapper {
