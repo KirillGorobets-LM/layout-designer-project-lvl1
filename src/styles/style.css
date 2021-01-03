@@ -1,6 +1,13 @@
 @font-face {
+  font-weight: normal;
   font-family: 'Open Suns';
   src: url(../../fonts/Open\ Suns/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: 'Open Suns';
+  src: url(../../fonts/Open\ Suns/OpenSans-Bold.ttf);
 }
 
 @font-face {
@@ -80,8 +87,27 @@ header {
 
 .column-2 {
   columns: 2;
+  column-gap: 30px;
 }
 
 .mgn-btm-185 {
   margin-top: 185px;
+}
+
+.btn-colors {
+  color: #fff;
+  background: #fe8a02;
+}
+
+.header-btn {
+  width: 148px;
+  height: 49px;
+
+  position: relative;
+  top: 40px;
+  left: 570px;
+
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
 }
