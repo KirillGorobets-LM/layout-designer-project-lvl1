@@ -154,6 +154,10 @@ header {
   background: #b09a81;
 }
 
+.background-white {
+  background: #fff;
+}
+
 .height-614 {
   height: 614px;
 }
@@ -193,6 +197,18 @@ header {
   color: #fff;
 }
 
+.brown-text-color {
+  color: #b09a81;
+}
+
+.white-50-text-color {
+  color: #d7ccc0;
+}
+
+.dark-50-text-color {
+  color: #908d8b;
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -230,7 +246,6 @@ header {
   font-family: 'Neucha', sans-serif;
   font-size: 24px;
   line-height: 1.2;
-  color: #908d8b;
 }
 
 .effect-description {
@@ -243,8 +258,19 @@ header {
 .info-title {
   margin-top: 100px;
   margin-bottom: 20px;
-  color: #fff;
   padding: 5px 10px;
   font-size: 14px;
   line-height: 1.2;
+}
+
+.flex-content {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.mg-right-30 {
+  margin-right: 30px;
 }
