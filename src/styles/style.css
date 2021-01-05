@@ -46,6 +46,10 @@ header {
   background-color: #f5f4f0;
 }
 
+.relative {
+  position: relative;
+}
+
 .main-width {
   width: 1440px;
 }
@@ -97,8 +101,8 @@ header {
   column-gap: 30px;
 }
 
-.mgn-top-185 {
-  margin-top: 185px;
+.mgn-top-190 {
+  margin-top: 190.07px;
 }
 
 .btn-colors {
