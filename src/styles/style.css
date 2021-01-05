@@ -316,13 +316,13 @@ header {
 }
 
 .footer-input::placeholder {
-  font-size: 13.1;
+  font-size: 13.1px;
   opacity: 0.2;
 }
 
 .jc-sb {
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .email-form {
@@ -390,4 +390,8 @@ header {
 
 .flex-center {
   justify-content: center;
+}
+
+.lh-inherit {
+  line-height: inherit;
 }
