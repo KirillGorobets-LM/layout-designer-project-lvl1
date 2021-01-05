@@ -97,8 +97,8 @@ header {
   column-gap: 30px;
 }
 
-.mgn-btm-196 {
-  margin-top: 196px;
+.mgn-top-185 {
+  margin-top: 185px;
 }
 
 .btn-colors {
@@ -107,6 +107,8 @@ header {
 }
 
 .header-btn {
+  height: 49px;
+  width: 149px;
   padding: 12px 24px;
 
   margin-top: 40px;
@@ -328,4 +330,12 @@ header {
 
 .mgn-btm-9 {
   margin-bottom: 9px;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.wd-540 {
+  width: 540px;
 }
