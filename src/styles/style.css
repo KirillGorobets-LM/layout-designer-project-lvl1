@@ -368,10 +368,6 @@ header {
   align-items: center;
 }
 
-.pd-btm-16 {
-  padding-bottom: 16px;
-}
-
 .img-border {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -382,4 +378,8 @@ header {
 
 .align-items {
   align-items: center;
+}
+
+.flex-center {
+  justify-content: center;
 }
