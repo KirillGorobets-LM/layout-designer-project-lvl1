@@ -347,3 +347,7 @@ header {
 .h-26 {
   height: 26px;
 }
+
+.bootstrap-text-color {
+  color: #212529;
+}
