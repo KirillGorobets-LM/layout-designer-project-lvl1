@@ -312,13 +312,15 @@ header {
   width: 423px;
 }
 
-.jc-se {
-  justify-content: space-around;
+.jc-sb {
+  justify-content: space-between;
   align-items: center;
 }
 
 .email-form {
   height: 190px;
+  box-sizing: border-box;
+  padding: 55px;
 }
 
 .text-size-18 {
@@ -372,4 +374,12 @@ header {
 
 .img-border {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-items {
+  align-items: center;
 }
