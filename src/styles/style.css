@@ -143,8 +143,12 @@ header {
   margin-left: 38px;
 }
 
-.mg-top-60 {
-  margin-top: 60px;
+.mg-top-76 {
+  margin-top: 76px;
+}
+
+.mg-16-0 {
+  margin: 16px 0;
 }
 
 .video {
@@ -309,7 +313,7 @@ header {
 }
 
 .jc-se {
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
