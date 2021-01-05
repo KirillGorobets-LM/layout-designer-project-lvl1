@@ -315,9 +315,14 @@ header {
   width: 415px;
 }
 
+.footer-input::placeholder {
+  font-size: 13.1;
+  opacity: 0.2;
+}
+
 .jc-sb {
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .email-form {
