@@ -152,7 +152,7 @@ header {
 
   position: absolute;
   top: 329px;
-  left: 91px;
+  left: 90px;
   z-index: 2;
 }
 
@@ -342,4 +342,8 @@ header {
 
 .wd-540 {
   width: 540px;
+}
+
+.h-26 {
+  height: 26px;
 }
