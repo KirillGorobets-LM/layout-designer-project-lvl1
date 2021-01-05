@@ -81,6 +81,10 @@ header {
   color: #fe8a02;
 }
 
+.text-color-a {
+  color: #1085c5;
+}
+
 .header-img {
   position: absolute;
   height: 525px;
@@ -131,6 +135,10 @@ header {
 
 .mg-left-38 {
   margin-left: 38px;
+}
+
+.mg-top-60 {
+  margin-top: 60px;
 }
 
 .video {
@@ -273,4 +281,51 @@ header {
 
 .mg-right-30 {
   margin-right: 30px;
+}
+
+.icon-before::before {
+  content: url(../images/send.svg);
+  line-height: 1;
+}
+
+.footer-button {
+  border: none;
+  height: 50px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-input {
+  box-sizing: border-box;
+  padding: 15px;
+  border: none;
+  height: 50px;
+  width: 423px;
+}
+
+.jc-se {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.email-form {
+  height: 190px;
+}
+
+.text-size-18 {
+  font-size: 18px;
+}
+
+.text-size-12 {
+  font-size: 12px;
+}
+
+.text-size-14 {
+  font-size: 14px;
+}
+
+.mgn-btm-9 {
+  margin-bottom: 9px;
 }
