@@ -187,12 +187,15 @@ header {
 }
 
 .card-size {
-  height: 275px;
-  width: 302px;
+  box-sizing: border-box;
+  width: 350px;
 }
 
 .card-padding {
   padding: 24px;
+}
+
+.card-mg-btm {
   margin-bottom: 20px;
 }
 
@@ -238,7 +241,7 @@ header {
   font-size: 64px;
   font-family: 'Neucha', sans-serif;
   line-height: 1;
-  padding-bottom: 36px;
+  padding-bottom: 40px;
 }
 
 .card-hover:hover {
